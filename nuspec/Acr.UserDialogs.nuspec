@@ -46,7 +46,7 @@ Supported Platforms
                 <dependency id="BTProgressHUD" version="[1.2.0.5, 2)" />
                 <dependency id="Acr.Support" version="[2.1.0, 3.0)" />
             </group>
-            <group targetFramework="MonoAndroid10">
+            <group targetFramework="MonoAndroid70">
                 <dependency id="AndHUD" version="[1.2.0, 2)" />
                 <dependency id="Splat" version="[2, 3)" />
                 <dependency id="Acr.Support" version="[2.1.0, 3.0)" />
@@ -63,7 +63,7 @@ Supported Platforms
         <file src="..\src\Acr.UserDialogs\bin\Release\netstandard1.1\Acr.UserDialogs.*" target="lib\netstandard1.1" />
 
         <!-- android -->
-        <file src="..\src\Acr.UserDialogs.Android\bin\Release\Acr.UserDialogs.*" target="lib\MonoAndroid10" />
+        <file src="..\src\Acr.UserDialogs.Android\bin\Release\Acr.UserDialogs.*" target="lib\MonoAndroid70" />
 
         <!-- ios -->
         <file src="..\src\Acr.UserDialogs.iOS\bin\iPhone\Release\Acr.UserDialogs.*" target="lib\Xamarin.iOS10" />
